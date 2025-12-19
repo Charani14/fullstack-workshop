@@ -1,1 +1,195 @@
-pwd
+charani@Charanis-MacBook-Air ~ % pwd
+/Users/charani
+charani@Charanis-MacBook-Air ~ % ls -la
+total 328
+drwxr-x---+  39 charani  staff   1248 18 Dec 15:36 .
+drwxr-xr-x    5 root     admin    160 12 Nov 15:04 ..
+drwxr-xr-x@  15 charani  staff    480 10 Mar  2025 .anydesk
+-r--------    1 charani  staff      7 22 Mar  2025 .CFUserTextEncoding
+drwxr-xr-x@   3 charani  staff     96 20 Feb  2025 .config
+drwxr-xr-x@  13 charani  staff    416 22 Mar  2025 .docker
+-rw-r--r--@   1 charani  staff  18436 17 Dec 17:37 .DS_Store
+drwxr-xr-x@   9 charani  staff    288 20 Feb  2025 .eclipse
+-rw-r--r--@   1 charani  staff    201 18 Dec 09:42 .gitconfig
+-rw-------@   1 charani  staff     20  7 Mar  2025 .lesshst
+drwxr-xr-x@   4 charani  staff    128  3 Jan  2025 .m2
+drwxr-xr-x@   3 charani  staff     96 23 Dec  2024 .oracle_jre_usage
+drwxr-xr-x@   8 charani  staff    256 18 Dec 09:52 .p2
+-rw-r--r--@   1 charani  staff  85536 24 Feb  2025 .pdfbox.cache
+drwx------@   3 charani  staff     96 23 Jan  2025 .ssh
+drwx------+  16 charani  staff    512 18 Dec 09:42 .Trash
+-rw-------@   1 charani  staff   5475 29 Jan  2025 .viminfo
+drwxr-xr-x@   5 charani  staff    160 18 Dec 15:32 .vscode
+-rw-r--r--@   1 charani  staff     42  3 Jan  2025 .zprofile
+-rw-------    1 charani  staff  33963 17 Dec 08:11 .zsh_history
+drwx------   14 charani  staff    448 18 Dec 15:36 .zsh_sessions
+drwx------@   6 charani  staff    192 27 Nov 09:26 Applications
+drwxr-xr-x@  20 charani  staff    640 20 Feb  2025 Dataquad-UserRegister-Api
+drwxr-xr-x@   4 charani  staff    128 19 Nov 21:31 Desktop
+drwxr-xr-x@  11 charani  staff    352 17 Jul 12:52 Documents
+drwx------@ 245 charani  staff   7840 18 Dec 15:33 Downloads
+drwxr-xr-x@   7 charani  staff    224 18 Dec 09:47 eclipse
+drwxr-xr-x@   7 charani  staff    224 20 Feb  2025 eclipse-workspace
+drwxr-xr-x    2 charani  staff     64  9 Nov 12:37 extracted_files
+drwxr-xr-x@   3 charani  staff     96 23 Dec  2024 IdeaProjects
+drwx------@ 102 charani  staff   3264  6 Oct 11:19 Library
+drwxr-xr-x    5 charani  staff    160 16 Dec 11:02 log-analyzer
+drwx------    5 charani  staff    160 18 Feb  2025 Movies
+drwx------+   4 charani  staff    128 18 Oct  2024 Music
+drwxr-xr-x@   3 charani  staff     96  2 Jan  2025 mysql-docker
+drwx------+   5 charani  staff    160  6 Nov  2024 Pictures
+drwxr-xr-x@   3 charani  staff     96 23 Dec  2024 Postman
+drwxr-xr-x+   4 charani  staff    128 17 Oct  2024 Public
+drwxr-xr-x    6 charani  staff    192 22 Nov 10:22 wedding
+charani@Charanis-MacBook-Air ~ % cd ~
+charani@Charanis-MacBook-Air ~ % mkdir devtraining
+charani@Charanis-MacBook-Air ~ % cd devtraining 
+charani@Charanis-MacBook-Air devtraining % touch file1.txt file2.txt file3.txt
+charani@Charanis-MacBook-Air devtraining % echo "This is my first file" >file1.txt
+charani@Charanis-MacBook-Air devtraining % cat file1.txt
+This is my first file
+charani@Charanis-MacBook-Air devtraining % cp file1.txt file1renamed.txt
+charani@Charanis-MacBook-Air devtraining % mv file2.txt file2renamed.txt
+charani@Charanis-MacBook-Air devtraining % rm file3.txt
+charani@Charanis-MacBook-Air devtraining % ls -l
+total 16
+-rw-r--r--  1 charani  staff  22 18 Dec 15:38 file1.txt
+-rw-r--r--  1 charani  staff  22 18 Dec 15:38 file1renamed.txt
+-rw-r--r--  1 charani  staff   0 18 Dec 15:37 file2renamed.txt
+charani@Charanis-MacBook-Air devtraining % touch script.sh
+charani@Charanis-MacBook-Air devtraining % ls -l script.sh
+-rw-r--r--  1 charani  staff  0 18 Dec 15:39 script.sh
+charani@Charanis-MacBook-Air devtraining % chmod +x script.sh
+charani@Charanis-MacBook-Air devtraining % ls -l script.sh
+-rwxr-xr-x  1 charani  staff  0 18 Dec 15:39 script.sh
+charani@Charanis-MacBook-Air devtraining % nano script.sh
+
+#!/bin/bash
+
+echo "Hello, Full Stack Developer!"
+
+mkdir -p logs
+
+date > logs/app.log
+
+charani@Charanis-MacBook-Air devtraining % ./script.sh
+Hello, Full Stack Developer!
+charani@Charanis-MacBook-Air devtraining % ls logs
+app.log
+charani@Charanis-MacBook-Air devtraining % cat logs/app.log
+Thu Dec 18 15:41:51 IST 2025
+charani@Charanis-MacBook-Air devtraining % 
+
+charani@Charanis-MacBook-Air devtraining % cd ~/devtraining
+charani@Charanis-MacBook-Air devtraining % touch log-analyzer.sh
+charani@Charanis-MacBook-Air devtraining % chmod +x log-analyzer.sh
+charani@Charanis-MacBook-Air devtraining % nano log-analyzer.sh
+#!/bin/bash
+
+# Check if argument is provided
+if [ $# -eq 0 ]; then
+    echo "Usage: ./log-analyzer.sh <log_file_path>"
+    exit 1
+fi
+
+LOG_FILE=$1
+
+# Check if file exists
+if [ ! -f "$LOG_FILE" ]; then
+    echo "Error: File '$LOG_FILE' does not exist."
+    exit 1
+fi
+
+# Count total lines
+TOTAL_LINES=$(wc -l < "$LOG_FILE")
+
+# Count log levels
+ERROR_COUNT=$(grep -c "ERROR" "$LOG_FILE")
+WARNING_COUNT=$(grep -c "WARNING" "$LOG_FILE")
+INFO_COUNT=$(grep -c "INFO" "$LOG_FILE")
+
+# Extract unique IP addresses
+IP_ADDRESSES=$(grep -Eo '([0-9]{1,3}\.){3}[0-9]{1,3}' "$LOG_FILE" | sort -u)
+
+# Print formatted report
+echo "        LOG ANALYSIS REPORT        "
+echo "Log File        : $LOG_FILE"
+echo "Total Lines     : $TOTAL_LINES"
+echo "ERROR Count     : $ERROR_COUNT"
+echo "WARNING Count   : $WARNING_COUNT"
+echo "INFO Count      : $INFO_COUNT"
+echo "Unique IP Addresses:"
+if [ -z "$IP_ADDRESSES" ]; then
+    echo "None found"
+else
+    echo "$IP_ADDRESSES"
+fi
+
+charani@Charanis-MacBook-Air devtraining % nano sample.log
+
+2024-01-15 08:00:01 INFO Application server started successfully
+2024-01-15 08:00:05 INFO Database connection pool initialized
+2024-01-15 08:01:23 INFO User login successful from 192.168.1.100
+2024-01-15 08:02:45 INFO Request processed from 192.168.1.100
+2024-01-15 08:03:12 WARNING High memory usage detected: 85%
+2024-01-15 08:05:33 INFO User login successful from 10.0.0.50
+2024-01-15 08:06:01 INFO Request processed from 10.0.0.50
+2024-01-15 08:07:22 ERROR Database connection failed: timeout after 30s
+2024-01-15 08:07:25 INFO Retrying database connection...
+2024-01-15 08:07:30 INFO Database connection restored
+2024-01-15 08:10:15 INFO User login successful from 172.16.0.25
+2024-01-15 08:12:44 WARNING Disk space running low: 90% used
+2024-01-15 08:15:00 INFO Scheduled backup started
+2024-01-15 08:15:33 INFO Request processed from 192.168.1.100
+2024-01-15 08:18:22 ERROR File not found: /var/data/config.xml
+2024-01-15 08:20:01 INFO User logout from 10.0.0.50
+2024-01-15 08:22:15 INFO Request processed from 172.16.0.25
+2024-01-15 08:25:00 INFO Scheduled backup completed successfully
+2024-01-15 08:30:12 WARNING CPU usage spike detected: 92%
+2024-01-15 08:32:45 INFO User login successful from 192.168.1.105
+2024-01-15 08:35:00 INFO Cache cleared successfully
+2024-01-15 08:38:22 ERROR Authentication failed for user admin from 203.0.113.50
+2024-01-15 08:40:15 WARNING Multiple failed login attempts from 203.0.113.50
+2024-01-15 08:42:01 INFO Request processed from 192.168.1.105
+2024-01-15 08:45:33 INFO User logout from 192.168.1.100
+2024-01-15 08:48:00 INFO System health check passed
+2024-01-15 08:50:22 ERROR Service unavailable: payment-gateway
+2024-01-15 08:50:30 INFO Initiating failover to backup payment service
+2024-01-15 08:50:45 INFO Failover completed successfully
+2024-01-15 08:55:12 WARNING Response time exceeded threshold: 2500ms
+2024-01-15 09:00:00 INFO Hourly metrics collected
+2024-01-15 09:02:33 INFO Request processed from 172.16.0.25
+2024-01-15 09:05:15 INFO User login successful from 10.0.0.75
+2024-01-15 09:08:44 ERROR Database query timeout: SELECT * FROM orders
+2024-01-15 09:10:00 INFO Query optimization triggered
+2024-01-15 09:12:22 INFO Request processed from 10.0.0.75
+2024-01-15 09:15:01 WARNING SSL certificate expires in 30 days
+2024-01-15 09:18:33 INFO User logout from 172.16.0.25
+2024-01-15 09:20:15 INFO New user registered from 192.168.1.200
+2024-01-15 09:22:45 INFO Email notification sent successfully
+2024-01-15 09:25:00 INFO Session cleanup completed: 15 expired sessions removed
+2024-01-15 09:28:12 ERROR External API rate limit exceeded
+2024-01-15 09:30:00 INFO Rate limiting backoff initiated
+2024-01-15 09:32:33 INFO Rate limiting backoff completed
+2024-01-15 09:35:15 INFO Request processed from 192.168.1.200
+2024-01-15 09:38:44 WARNING Memory usage: 88%
+2024-01-15 09:40:01 INFO Garbage collection triggered
+2024-01-15 09:40:15 INFO Garbage collection completed: 256MB freed
+2024-01-15 09:45:22 INFO User login successful from 192.168.1.100
+2024-01-15 09:48:00 INFO Application health: OK
+charani@Charanis-MacBook-Air devtraining % ./log-analyzer.sh sample.log
+        LOG ANALYSIS REPORT        
+Log File        : sample.log
+Total Lines     :       50
+ERROR Count     : 6
+WARNING Count   : 7
+INFO Count      : 37
+Unique IP Addresses:
+10.0.0.50
+10.0.0.75
+172.16.0.25
+192.168.1.100
+192.168.1.105
+192.168.1.200
+203.0.113.50
+charani@Charanis-MacBook-Air devtraining %
