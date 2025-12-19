@@ -1,0 +1,16 @@
+Git Commands which I practiced in my terminal to complete exercise1:
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin <repository-url>
+git push -u origin main
+git branch branch name
+git checkout branch name
+git add .
+git commit -m "Added new feature"
+git push origin branch name
+git status
+git diff main branch name
+git stash
+git stash pop
+git pull origin maina
