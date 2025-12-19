@@ -192,4 +192,33 @@ Unique IP Addresses:
 192.168.1.105
 192.168.1.200
 203.0.113.50
+charani@Charanis-MacBook-Air devtraining % pwd
+/Users/charani/devtraining
+charani@Charanis-MacBook-Air devtraining % ls -la
+total 64
+drwxr-xr-x   6 charani  staff    192 18 Dec 15:45 .
+drwxr-x---+ 39 charani  staff   1248 18 Dec 15:36 ..
+-rw-r--r--   1 charani  staff     0 18 Dec 15:37 file2renamed.txt
+-rw-r--r--   1 charani  staff    22 18 Dec 15:38 file1.txt
+-rw-r--r--   1 charani  staff    22 18 Dec 15:38 file1renamed.txt
+drwxr-xr-x   2 charani  staff     64 18 Dec 15:41 logs
+-rwxr-xr-x   1 charani  staff   223 18 Dec 15:39 script.sh
+-rwxr-xr-x   1 charani  staff   456 18 Dec 15:45 log-analyzer.sh
+-rw-r--r--   1 charani  staff  2048 18 Dec 15:44 sample.log
+charani@Charanis-MacBook-Air devtraining % ./log-analyzer.sh sample.log
+        LOG ANALYSIS REPORT        
+Log File        : sample.log
+Total Lines     :       50
+ERROR Count     : 6
+WARNING Count   : 7
+INFO Count      : 37                                                                                    
+
+Unique IP Addresses:    
+10.0.0.50
+10.0.0.75
+172.16.0.25
+192.168.1.100
+192.168.1.105
+192.168.1.200
+203.0.113.50    
 charani@Charanis-MacBook-Air devtraining %
