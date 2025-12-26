@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Counter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        #count {
+            font-size: 48px;
+            margin-bottom: 20px;
+            color: black;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            margin: 5px;
+            cursor: pointer;
+        }
+
+        .steps button {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="count">0</div>
+
+    <div>
+        <button onclick="decrement()">−</button>
+        <button onclick="reset()">Reset</button>
+        <button onclick="increment()">+</button>
+    </div>
+
+    <p>Step:</p>
+    <div class="steps">
+        <button onclick="setStep(1)">1</button>
+        <button onclick="setStep(5)">5</button>
+        <button onclick="setStep(10)">10</button>
+    </div>
+
+   <script src="challenge9.js"></script>
+</body>
+</html>
