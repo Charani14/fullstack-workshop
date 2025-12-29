@@ -1,5 +1,5 @@
 #!/bin/bash
-
+set -e
 # Check if directory argument is provided
 if [ -z "$1" ]; then
   echo "Usage: ./file-organizer.sh /path/to/directory"
