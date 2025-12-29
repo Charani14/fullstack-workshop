@@ -1,15 +1,29 @@
 # Review: 07-bootstrap
 
 **Exercise:**  Exercise: Build a Responsive Dashboard Layout
-**Review Date:** 2025-12-29 15:54
+**Review Date:** 2025-12-29 16:21
 
 ---
 
 ## Status: ✅ Submitted
 
-**Files submitted:** 1
+**Files submitted:** 2
 
 ### Code Review
+
+📄 **assignment1.html**
+   Path: `07-bootstrap/assignment1.html`
+   Lines: 207
+
+    - ✅ Has `<!DOCTYPE html>`
+    - ✅ Uses semantic HTML5 tags
+    - ✅ Images have `alt` attributes
+    - ✅ Has viewport meta tag (mobile-friendly)
+    - ✅ Has `lang` attribute
+
+   **Score: 5/5**
+
+### Topic Score: 5 / 5 (100%)
 
 ---
 
