@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Accordion Component</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 2rem auto;
+  }
+  .accordion-item {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    overflow: hidden;
+  }
+  .accordion-header {
+    background: #f1f1f1;
+    padding: 1rem;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .accordion-header:hover {
+    background: #e2e2e2;
+  }
+  .accordion-title {
+    margin: 0;
+    font-weight: bold;
+  }
+  .accordion-arrow {
+    transition: transform 0.3s ease;
+    font-size: 1.2rem;
+  }
+  .accordion-arrow.rotate {
+    transform: rotate(90deg);
+  }
+  .accordion-content {
+    overflow: hidden;
+    height: 0;
+    transition: height 0.3s ease;
+    padding: 0 1rem;
+  }
+  .accordion-content p {
+    margin: 1rem 0;
+  }
+  .accordion-content.open {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+</style>
+</head>
+<body>
+
+<div id="accordion"></div>
+
+<script src="accordion.js"></script>
+<script>
+  const accordionData = [
+    { title: 'What is JavaScript?', content: 'JavaScript is a programming language commonly used to create interactive effects within web browsers.' },
+    { title: 'What is the DOM?', content: 'The Document Object Model (DOM) is a programming interface for HTML and XML documents.' },
+    { title: 'What are events?', content: 'Events are actions or occurrences that happen in the system you are programming, which the system tells you about so your code can react to them.' }
+  ];
+
+  // Option: true allows multiple open, false allows only one open at a time
+  const allowMultipleOpen = false;
+
+  // Initialize accordion
+  createAccordion(document.getElementById('accordion'), accordionData, allowMultipleOpen);
+</script>
+
+</body>
+</html>
