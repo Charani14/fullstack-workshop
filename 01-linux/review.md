@@ -1,7 +1,7 @@
 # Review: 01-linux
 
 **Exercise:**  Exercise: Log File Analyzer Script
-**Review Date:** 2025-12-29 16:30
+**Review Date:** 2025-12-29 16:37
 
 ---
 
@@ -20,12 +20,12 @@
    Lines: 47
 
     - ✅ Has shebang (`#!/bin/bash`)
-    - ❌ Missing `set -e` for error handling
+    - ✅ Has error handling (`set -e`)
     - ✅ Handles command-line arguments
     - ✅ Has comments (5 lines)
     - ✅ Variables are properly quoted
 
-   **Score: 4/5**
+   **Score: 5/5**
 
 📄 **user-audit.sh**
    Path: `01-linux/challenges/user-audit.sh`
@@ -53,17 +53,17 @@
 
 📄 **script.sh**
    Path: `01-linux/exercises/script.sh`
-   Lines: 6
+   Lines: 10
 
     - ✅ Has shebang (`#!/bin/bash`)
-    - ❌ Missing `set -e` for error handling
+    - ✅ Has error handling (`set -e`)
     - ⚠️ No argument handling detected
-    - 💡 Consider adding more comments
+    - ✅ Has comments (3 lines)
     - 💡 Consider quoting variables to handle spaces
 
-   **Score: 1/5**
+   **Score: 3/5**
 
-### Topic Score: 20 / 25 (80%)
+### Topic Score: 23 / 25 (92%)
 
 ### Technical Checklist
 
