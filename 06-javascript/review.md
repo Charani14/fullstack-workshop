@@ -1,7 +1,7 @@
 # Review: 06-javascript
 
 **Exercise:** Exercise
-**Review Date:** 2025-12-29 15:42
+**Review Date:** 2025-12-29 15:54
 
 ---
 
@@ -12,7 +12,7 @@
 ### Code Review
 
 📄 **Interactive.html**
-   Path: `06-javascript/exercises/challenge1/Interactive.html`
+   Path: `06-javascript/challenges/challenge1/Interactive.html`
    Lines: 51
 
     - ✅ Has `<!DOCTYPE html>`
@@ -23,7 +23,7 @@
    **Score: 4/5**
 
 📄 **Interactive.js**
-   Path: `06-javascript/exercises/challenge1/Interactive.js`
+   Path: `06-javascript/challenges/challenge1/Interactive.js`
    Lines: 38
 
     - ✅ Uses `const`/`let` (no `var`)
@@ -35,7 +35,7 @@
    **Score: 2/5**
 
 📄 **library.js**
-   Path: `06-javascript/exercises/challenge2/library.js`
+   Path: `06-javascript/challenges/challenge2/library.js`
    Lines: 102
 
     - ✅ Uses `const`/`let` (no `var`)
@@ -47,7 +47,7 @@
    **Score: 4/5**
 
 📄 **modal.html**
-   Path: `06-javascript/exercises/challenge3/modal.html`
+   Path: `06-javascript/challenges/challenge3/modal.html`
    Lines: 138
 
     - ✅ Has `<!DOCTYPE html>`
@@ -58,7 +58,7 @@
    **Score: 4/5**
 
 📄 **modal.js**
-   Path: `06-javascript/exercises/challenge3/modal.js`
+   Path: `06-javascript/challenges/challenge3/modal.js`
    Lines: 118
 
     - ✅ Uses `const`/`let` (no `var`)
@@ -70,7 +70,7 @@
    **Score: 4/5**
 
 📄 **accordion.html**
-   Path: `06-javascript/exercises/challenge4/accordion.html`
+   Path: `06-javascript/challenges/challenge4/accordion.html`
    Lines: 77
 
     - ✅ Has `<!DOCTYPE html>`
@@ -81,7 +81,7 @@
    **Score: 4/5**
 
 📄 **accordion.js**
-   Path: `06-javascript/exercises/challenge4/accordion.js`
+   Path: `06-javascript/challenges/challenge4/accordion.js`
    Lines: 68
 
     - ✅ Uses `const`/`let` (no `var`)
@@ -93,7 +93,7 @@
    **Score: 4/5**
 
 📄 **typechecker.js**
-   Path: `06-javascript/exercises/challenge5/typechecker.js`
+   Path: `06-javascript/challenges/challenge5/typechecker.js`
    Lines: 37
 
     - ✅ Uses `const`/`let` (no `var`)
@@ -105,7 +105,7 @@
    **Score: 3/5**
 
 📄 **validate-password.js**
-   Path: `06-javascript/exercises/challenge6/validate-password.js`
+   Path: `06-javascript/challenges/challenge6/validate-password.js`
    Lines: 66
 
     - ✅ Uses `const`/`let` (no `var`)
@@ -117,7 +117,7 @@
    **Score: 2/5**
 
 📄 **compose.js**
-   Path: `06-javascript/exercises/challenge7/compose.js`
+   Path: `06-javascript/challenges/challenge7/compose.js`
    Lines: 18
 
     - ✅ Uses `const`/`let` (no `var`)

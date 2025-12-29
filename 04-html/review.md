@@ -1,7 +1,7 @@
 # Review: 04-html
 
 **Exercise:** Exercise
-**Review Date:** 2025-12-29 15:42
+**Review Date:** 2025-12-29 15:54
 
 ---
 
@@ -19,7 +19,7 @@
 ### Code Review
 
 📄 **portfolio-v1.html**
-   Path: `04-html/portfolio-v1.html`
+   Path: `04-html/challenges/portfolio-v1.html`
    Lines: 125
 
     - ✅ Has `<!DOCTYPE html>`
@@ -33,13 +33,13 @@
    **Score: 5/5**
 
 📄 **portfolio-v2.css**
-   Path: `04-html/portfolio-v2.css`
+   Path: `04-html/challenges/portfolio-v2.css`
    Lines: 102
 
    - ✅ CSS file present
 
 📄 **portfolio-v2.html**
-   Path: `04-html/portfolio-v2.html`
+   Path: `04-html/challenges/portfolio-v2.html`
    Lines: 92
 
     - ✅ Has `<!DOCTYPE html>`
@@ -53,7 +53,7 @@
    **Score: 5/5**
 
 📄 **portfolio-v3.html**
-   Path: `04-html/portfolio-v3.html`
+   Path: `04-html/challenges/portfolio-v3.html`
    Lines: 125
 
     - ✅ Has `<!DOCTYPE html>`

@@ -1,19 +1,31 @@
 # Review: 01-linux
 
 **Exercise:**  Exercise: Log File Analyzer Script
-**Review Date:** 2025-12-29 15:42
+**Review Date:** 2025-12-29 15:54
 
 ---
 
 ## Status: ✅ Submitted
 
-**Files submitted:** 5
+**Files submitted:** 6
 
 ### Required Files
 
 - ✅ Found: `log-analyzer.sh`
 
 ### Code Review
+
+📄 **user-audit.sh**
+   Path: `01-linux/challenges/user-audit.sh`
+   Lines: 40
+
+    - ❌ Missing shebang (`#!/bin/bash`)
+    - ❌ Missing `set -e` for error handling
+    - ✅ Handles command-line arguments
+    - ✅ Has comments (10 lines)
+    - ✅ Variables are properly quoted
+
+   **Score: 3/5**
 
 📄 **log-analyzer.sh**
    Path: `01-linux/exercises/log-analyzer.sh`
@@ -39,7 +51,7 @@
 
    **Score: 1/5**
 
-### Topic Score: 10 / 15 (66%)
+### Topic Score: 13 / 20 (65%)
 
 ### Technical Checklist
 
