@@ -1,24 +1,73 @@
 # Review: 04-html
 
 **Exercise:** Exercise
-**Review Date:** 2025-12-29 13:59
+**Review Date:** 2025-12-29 15:05
 
 ---
 
 ## Status: ✅ Submitted
 
-**Files submitted:** 1
+**Files submitted:** 5
 
 ### Required Files
 
-- ❌ Missing: `portfolio-v1.html`
-- ❌ Missing: `portfolio-v2.html`
-- ❌ Missing: `portfolio-v2.css`
-- ❌ Missing: `portfolio-v3.html`
+- ✅ Found: `portfolio-v1.html`
+- ✅ Found: `portfolio-v2.html`
+- ✅ Found: `portfolio-v2.css`
+- ✅ Found: `portfolio-v3.html`
 
 ### Code Review
 
-### Topic Score: 0 / 20 (0%)
+📄 **portfolio-v1.html**
+   Path: `04-html/portfolio-v1.html`
+   Lines: 125
+
+    - ✅ Has `<!DOCTYPE html>`
+    - ✅ Uses semantic HTML5 tags
+    - ✅ Images have `alt` attributes
+    - ✅ Has viewport meta tag (mobile-friendly)
+    - ✅ Has `lang` attribute
+    - 📌 **Version 1 (Raw HTML)**
+    - ✅ Pure semantic HTML (no styling)
+
+   **Score: 5/5**
+
+📄 **portfolio-v2.css**
+   Path: `04-html/portfolio-v2.css`
+   Lines: 102
+
+   - ✅ CSS file present
+
+📄 **portfolio-v2.html**
+   Path: `04-html/portfolio-v2.html`
+   Lines: 92
+
+    - ✅ Has `<!DOCTYPE html>`
+    - ✅ Uses semantic HTML5 tags
+    - ✅ Images have `alt` attributes
+    - ✅ Has viewport meta tag (mobile-friendly)
+    - ✅ Has `lang` attribute
+    - 📌 **Version 2 (HTML + CSS3)**
+    - ✅ Links to CSS stylesheet
+
+   **Score: 5/5**
+
+📄 **portfolio-v3.html**
+   Path: `04-html/portfolio-v3.html`
+   Lines: 125
+
+    - ✅ Has `<!DOCTYPE html>`
+    - ✅ Uses semantic HTML5 tags
+    - ✅ Images have `alt` attributes
+    - ✅ Has viewport meta tag (mobile-friendly)
+    - ✅ Has `lang` attribute
+    - 📌 **Version 3 (Bootstrap)**
+    - ✅ Uses Bootstrap framework
+    - ✅ Uses Bootstrap classes
+
+   **Score: 5/5**
+
+### Topic Score: 35 / 35 (100%)
 
 ---
 
