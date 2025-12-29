@@ -1,4 +1,4 @@
-console.log("Library program started");
+console.log(`Library program started`);
 const library = createLibrary();
 
 // Add books
