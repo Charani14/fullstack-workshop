@@ -1,15 +1,40 @@
 # Review: 08-jquery
 
 **Exercise:**  Exercise: Build an Interactive Quiz Application
-**Review Date:** 2025-12-30 11:46
+**Review Date:** 2025-12-30 15:29
 
 ---
 
 ## Status: ✅ Submitted
 
-**Files submitted:** 1
+**Files submitted:** 3
 
 ### Code Review
+
+📄 **quiz.html**
+   Path: `08-jquery/Exercises/quiz.html`
+   Lines: 149
+
+    - ✅ Has `<!DOCTYPE html>`
+    - 💡 Consider using semantic tags (header, nav, main, etc.)
+    - ✅ Has viewport meta tag (mobile-friendly)
+    - ✅ Has `lang` attribute
+
+   **Score: 4/5**
+
+📄 **quiz.js**
+   Path: `08-jquery/Exercises/quiz.js`
+   Lines: 217
+
+    - ✅ Uses `const`/`let` (no `var`)
+    - ✅ Uses strict equality (`===`)
+    - ✅ Uses arrow functions
+    - ✅ Uses template literals
+    - 💡 Consider using array methods (map, filter, reduce)
+
+   **Score: 4/5**
+
+### Topic Score: 8 / 10 (80%)
 
 ---
 

@@ -1,26 +1,26 @@
 # Review: 06-javascript
 
 **Exercise:** Exercise
-**Review Date:** 2025-12-30 11:46
+**Review Date:** 2025-12-30 15:29
 
 ---
 
 ## Status: ✅ Submitted
 
-**Files submitted:** 26
+**Files submitted:** 20
 
 ### Code Review
 
 📄 **Interactive.html**
    Path: `06-javascript/challenge-01/Interactive.html`
-   Lines: 51
+   Lines: 66
 
     - ✅ Has `<!DOCTYPE html>`
-    - 💡 Consider using semantic tags (header, nav, main, etc.)
+    - ✅ Uses semantic HTML5 tags
     - ✅ Has viewport meta tag (mobile-friendly)
     - ✅ Has `lang` attribute
 
-   **Score: 4/5**
+   **Score: 5/5**
 
 📄 **Interactive.js**
    Path: `06-javascript/challenge-01/Interactive.js`
@@ -36,30 +36,30 @@
 
 📄 **library.js**
    Path: `06-javascript/challenge-02/library.js`
-   Lines: 102
+   Lines: 143
 
     - ✅ Uses `const`/`let` (no `var`)
     - ✅ Uses strict equality (`===`)
     - ✅ Uses arrow functions
-    - 💡 Consider using template literals for string interpolation
+    - ✅ Uses template literals
     - ✅ Uses modern array methods
 
-   **Score: 4/5**
+   **Score: 5/5**
 
 📄 **modal.html**
    Path: `06-javascript/challenge-03/modal.html`
-   Lines: 138
+   Lines: 144
 
     - ✅ Has `<!DOCTYPE html>`
-    - 💡 Consider using semantic tags (header, nav, main, etc.)
+    - ✅ Uses semantic HTML5 tags
     - ✅ Has viewport meta tag (mobile-friendly)
     - ✅ Has `lang` attribute
 
-   **Score: 4/5**
+   **Score: 5/5**
 
 📄 **modal.js**
    Path: `06-javascript/challenge-03/modal.js`
-   Lines: 118
+   Lines: 119
 
     - ✅ Uses `const`/`let` (no `var`)
     - ✅ Uses strict equality (`===`)
@@ -71,96 +71,96 @@
 
 📄 **accordion.html**
    Path: `06-javascript/challenge-04/accordion.html`
-   Lines: 77
+   Lines: 81
 
     - ✅ Has `<!DOCTYPE html>`
-    - 💡 Consider using semantic tags (header, nav, main, etc.)
+    - ✅ Uses semantic HTML5 tags
     - ✅ Has viewport meta tag (mobile-friendly)
     - ✅ Has `lang` attribute
 
-   **Score: 4/5**
+   **Score: 5/5**
 
 📄 **accordion.js**
    Path: `06-javascript/challenge-04/accordion.js`
-   Lines: 68
+   Lines: 66
 
     - ✅ Uses `const`/`let` (no `var`)
     - ✅ Uses strict equality (`===`)
     - ✅ Uses arrow functions
-    - 💡 Consider using template literals for string interpolation
+    - ✅ Uses template literals
     - ✅ Uses modern array methods
 
-   **Score: 4/5**
+   **Score: 5/5**
 
 📄 **typechecker.js**
    Path: `06-javascript/challenge-05/typechecker.js`
-   Lines: 37
+   Lines: 60
 
     - ✅ Uses `const`/`let` (no `var`)
     - ✅ Uses strict equality (`===`)
     - ✅ Uses arrow functions
-    - 💡 Consider using template literals for string interpolation
-    - 💡 Consider using array methods (map, filter, reduce)
+    - ✅ Uses template literals
+    - ✅ Uses modern array methods
 
-   **Score: 3/5**
+   **Score: 5/5**
 
 📄 **validate-password.js**
    Path: `06-javascript/challenge-06/validate-password.js`
-   Lines: 70
+   Lines: 93
 
     - ✅ Uses `const`/`let` (no `var`)
     - ✅ Uses strict equality (`===`)
     - ✅ Uses arrow functions
-    - 💡 Consider using template literals for string interpolation
+    - ✅ Uses template literals
     - ✅ Uses modern array methods
 
-   **Score: 4/5**
+   **Score: 5/5**
 
 📄 **compose.js**
    Path: `06-javascript/challenge-07/compose.js`
-   Lines: 18
+   Lines: 22
 
     - ✅ Uses `const`/`let` (no `var`)
     - ✅ Uses strict equality (`===`)
     - ✅ Uses arrow functions
-    - 💡 Consider using template literals for string interpolation
+    - ✅ Uses template literals
     - ✅ Uses modern array methods
 
-   **Score: 4/5**
+   **Score: 5/5**
 
 📄 **exercise1.html**
    Path: `06-javascript/exercises/exercise1/exercise1.html`
-   Lines: 15
+   Lines: 20
 
     - ✅ Has `<!DOCTYPE html>`
-    - 💡 Consider using semantic tags (header, nav, main, etc.)
+    - ✅ Uses semantic HTML5 tags
     - ✅ Has viewport meta tag (mobile-friendly)
-    - 💡 Add `lang` attribute to `<html>` tag
+    - ✅ Has `lang` attribute
 
-   **Score: 3/5**
+   **Score: 5/5**
 
 📄 **index.html**
    Path: `06-javascript/exercises/exercise2/index.html`
-   Lines: 11
+   Lines: 16
 
     - ✅ Has `<!DOCTYPE html>`
-    - 💡 Consider using semantic tags (header, nav, main, etc.)
+    - ✅ Uses semantic HTML5 tags
     - ✅ Has viewport meta tag (mobile-friendly)
-    - 💡 Add `lang` attribute to `<html>` tag
+    - ✅ Has `lang` attribute
 
-   **Score: 3/5**
+   **Score: 5/5**
 
 📄 **script.js**
    Path: `06-javascript/exercises/exercise2/script.js`
-   Lines: 0
+   Lines: 16
 
     - ✅ Uses `const`/`let` (no `var`)
     - ✅ Uses strict equality (`===`)
-    - 💡 Consider using arrow functions
-    - 💡 Consider using template literals for string interpolation
-    - 💡 Consider using array methods (map, filter, reduce)
+    - ✅ Uses arrow functions
+    - ✅ Uses template literals
+    - ✅ Uses modern array methods
 
-   **Score: 2/5**
+   **Score: 5/5**
 
 📄 **curryfunction.js**
    Path: `06-javascript/exercises/exercise3/curryfunction.js`
@@ -169,33 +169,33 @@
     - ✅ Uses `const`/`let` (no `var`)
     - ✅ Uses strict equality (`===`)
     - ✅ Uses arrow functions
-    - 💡 Consider using template literals for string interpolation
-    - 💡 Consider using array methods (map, filter, reduce)
+    - ✅ Uses template literals
+    - ✅ Uses modern array methods
 
-   **Score: 3/5**
+   **Score: 5/5**
 
 📄 **exercise4.js**
    Path: `06-javascript/exercises/exercise4/exercise4.js`
-   Lines: 32
+   Lines: 33
 
     - ✅ Uses `const`/`let` (no `var`)
     - ✅ Uses strict equality (`===`)
     - ✅ Uses arrow functions
-    - 💡 Consider using template literals for string interpolation
+    - ✅ Uses template literals
     - ✅ Uses modern array methods
 
-   **Score: 4/5**
+   **Score: 5/5**
 
 📄 **exercise5.html**
    Path: `06-javascript/exercises/exercise5/exercise5.html`
-   Lines: 15
+   Lines: 20
 
     - ✅ Has `<!DOCTYPE html>`
-    - 💡 Consider using semantic tags (header, nav, main, etc.)
+    - ✅ Uses semantic HTML5 tags
     - ✅ Has viewport meta tag (mobile-friendly)
-    - 💡 Add `lang` attribute to `<html>` tag
+    - ✅ Has `lang` attribute
 
-   **Score: 3/5**
+   **Score: 5/5**
 
 📄 **exercise5.js**
    Path: `06-javascript/exercises/exercise5/exercise5.js`
@@ -211,14 +211,14 @@
 
 📄 **exercise6.html**
    Path: `06-javascript/exercises/exercise6/exercise6.html`
-   Lines: 14
+   Lines: 17
 
     - ✅ Has `<!DOCTYPE html>`
-    - 💡 Consider using semantic tags (header, nav, main, etc.)
+    - ✅ Uses semantic HTML5 tags
     - ✅ Has viewport meta tag (mobile-friendly)
-    - 💡 Add `lang` attribute to `<html>` tag
+    - ✅ Has `lang` attribute
 
-   **Score: 3/5**
+   **Score: 5/5**
 
 📄 **exercise6.js**
    Path: `06-javascript/exercises/exercise6/exercise6.js`
@@ -232,76 +232,7 @@
 
    **Score: 3/5**
 
-📄 **exercise7.html**
-   Path: `06-javascript/exercises/exercise7/exercise7.html`
-   Lines: 15
-
-    - ✅ Has `<!DOCTYPE html>`
-    - 💡 Consider using semantic tags (header, nav, main, etc.)
-    - ✅ Has viewport meta tag (mobile-friendly)
-    - 💡 Add `lang` attribute to `<html>` tag
-
-   **Score: 3/5**
-
-📄 **exercise7.js**
-   Path: `06-javascript/exercises/exercise7/exercise7.js`
-   Lines: 8
-
-    - ✅ Uses `const`/`let` (no `var`)
-    - ✅ Uses strict equality (`===`)
-    - 💡 Consider using arrow functions
-    - 💡 Consider using template literals for string interpolation
-    - 💡 Consider using array methods (map, filter, reduce)
-
-   **Score: 2/5**
-
-📄 **exercise8.html**
-   Path: `06-javascript/exercises/exercise8/exercise8.html`
-   Lines: 15
-
-    - ✅ Has `<!DOCTYPE html>`
-    - 💡 Consider using semantic tags (header, nav, main, etc.)
-    - ✅ Has viewport meta tag (mobile-friendly)
-    - 💡 Add `lang` attribute to `<html>` tag
-
-   **Score: 3/5**
-
-📄 **exercise8.js**
-   Path: `06-javascript/exercises/exercise8/exercise8.js`
-   Lines: 16
-
-    - ✅ Uses `const`/`let` (no `var`)
-    - ✅ Uses strict equality (`===`)
-    - 💡 Consider using arrow functions
-    - 💡 Consider using template literals for string interpolation
-    - 💡 Consider using array methods (map, filter, reduce)
-
-   **Score: 2/5**
-
-📄 **exercise9.html**
-   Path: `06-javascript/exercises/exercise9/exercise9.html`
-   Lines: 15
-
-    - ✅ Has `<!DOCTYPE html>`
-    - 💡 Consider using semantic tags (header, nav, main, etc.)
-    - ✅ Has viewport meta tag (mobile-friendly)
-    - 💡 Add `lang` attribute to `<html>` tag
-
-   **Score: 3/5**
-
-📄 **exercise9.js**
-   Path: `06-javascript/exercises/exercise9/exercise9.js`
-   Lines: 19
-
-    - ✅ Uses `const`/`let` (no `var`)
-    - ✅ Uses strict equality (`===`)
-    - 💡 Consider using arrow functions
-    - ✅ Uses template literals
-    - 💡 Consider using array methods (map, filter, reduce)
-
-   **Score: 3/5**
-
-### Topic Score: 83 / 125 (66%)
+### Topic Score: 90 / 95 (94%)
 
 ---
 
