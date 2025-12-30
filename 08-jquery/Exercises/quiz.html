@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz App</title>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            display: flex;
+            justify-content: center;
+            padding: 40px;
+        }
+
+        .quiz-container {
+            width: 600px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            display: none;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        .progress {
+            margin-bottom: 10px;
+        }
+
+        .progress-bar {
+            height: 10px;
+            background: #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            width: 0%;
+            background: #4caf50;
+        }
+
+        .timer {
+            text-align: right;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .timer.warning {
+            color: red;
+            animation: pulse 1s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            padding: 10px;
+            border: 1px solid #ddd;
+            margin-bottom: 8px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        li.selected {
+            background: #e3f2fd;
+            border-color: #2196f3;
+        }
+
+        li.correct {
+            background: #c8e6c9;
+        }
+
+        li.incorrect {
+            background: #ffcdd2;
+        }
+
+        .navigation {
+            margin-top: 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        button {
+            padding: 8px 14px;
+            cursor: pointer;
+        }
+
+        .loading {
+            font-size: 18px;
+            text-align: center;
+        }
+
+        .results {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="loading">Loading quiz...</div>
+
+<div class="quiz-container">
+    <div class="progress">
+        <span id="progress-text"></span>
+        <div class="progress-bar">
+            <div class="progress-fill"></div>
+        </div>
+    </div>
+
+    <div class="timer">Time: <span id="time">30</span>s</div>
+
+    <h2 id="question"></h2>
+
+    <ul id="options"></ul>
+
+    <div class="navigation">
+        <button id="prev">Previous</button>
+        <button id="next">Next</button>
+        <button id="submit">Submit</button>
+    </div>
+</div>
+
+<div class="quiz-container results">
+    <h2>Quiz Results</h2>
+    <p id="score"></p>
+    <div id="review"></div>
+    <button id="restart">Restart Quiz</button>
+</div>
+
+<script src="quiz.js"></script>
+</body>
+</html>

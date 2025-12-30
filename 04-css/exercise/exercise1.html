@@ -7,96 +7,110 @@
     <link rel="stylesheet" href="exercise1.css">
 </head>
 <body>
-    <h1>Product Cards</h1>
+    <header>
+        <h1>Product Cards</h1>
+    </header>
 
-    <div class="card-container">
-        <!-- Card 1 -->
-        <div class="card">
-            <div class="card-image-wrapper">
-                <img src="https://www.apple.com/v/airpods/aa/images/meta/airpods__dh7xkbort402_og.png"
-                     alt="Apple Airpods"
-                     class="card-image">
-            </div>
-            <div class="card-content">
-                <span class="card-badge">New</span>
-                <h3 class="card-title"> Apple airpods</h3>
-                <p class="card-description">
-                    Experience high-quality sound and seamless connectivity
-                    with the latest Apple Airpods.
-                </p>
-                <div class="card-price">
-                    <span class="price-original">$199.99</span>
-                    <span class="price-sale">$129.99</span>
+    <main>
+        <section class="card-container">
+
+            <article class="card">
+                <div class="card-image-wrapper">
+                    <img src="https://www.apple.com/v/airpods/aa/images/meta/airpods__dh7xkbort402_og.png"
+                         alt="Apple AirPods wireless earbuds"
+                         class="card-image">
                 </div>
-                <button class="card-button">Add to Cart</button>
-            </div>
+
+                <div class="card-content">
+                    <span class="card-badge">New</span>
+                    <h3 class="card-title">Apple AirPods</h3>
+                    <p class="card-description">
+                        Experience high-quality sound and seamless connectivity
+                        with the latest Apple AirPods.
+                    </p>
+                    <div class="card-price">
+                        <span class="price-original">$199.99</span>
+                        <span class="price-sale">$129.99</span>
+                    </div>
+                    <button class="card-button">Add to Cart</button>
+                </div>
+            </article>
+
+<article class="card">
+    <div class="card-image-wrapper">
+        <img src="https://www.apple.com/newsroom/images/product/mac/standard/Apple_new-macbookair-wallpaper-screen_11102020_big.jpg.large.jpg"
+             alt="Apple MacBook Air laptop with Retina display"
+             class="card-image">
+    </div>
+
+    <div class="card-content">
+        <h3 class="card-title">MacBook Air</h3>
+        <p class="card-description">
+            Lightweight laptop with M1 chip, stunning Retina display,
+            and all-day battery life for productivity on the go.
+        </p>
+
+        <div class="card-price">
+            <span class="price-sale">$1178</span>
         </div>
 
-        <!-- Card 2 -->
-        <div class="card">
-            <div class="card-image-wrapper">
-                <img src="https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/apple-watch-series-9.png"
-                     alt="Apple Watch Series 9"
-                     class="card-image">
-            </div>
-            <div class="card-content">
-                <span class="card-badge badge-sale">Sale</span>
-                <h3 class="card-title">Apple Watch Series 9</h3>
-                <p class="card-description">
-                    Advanced fitness tracking, heart rate monitoring, and seamless
-                    smartphone integration in a sleek design.
-                </p>
-                <div class="card-price">
-                    <span class="price-original">$449.99</span>
-                    <span class="price-sale">$349.99</span>
-                </div>
-                <button class="card-button">Add to Cart</button>
-            </div>
+        <button class="card-button">Add to Cart</button>
+    </div>
+</article>
+<article class="card card-on-sale">
+    <div class="card-image-wrapper">"
+        <img src="https://icreststore.in/wp-content/uploads/2022/10/MNXM3HN_A-600x600.webp"
+             alt="Apple iPad Pro tablet with Liquid Retina display"
+             class="card-image">
+        <div class="sale-badge" aria-hidden="true">
+            Sale
         </div>
-
-        <!-- Card 3 -->
-        <div class="card">
-            <div class="card-image-wrapper">
-                <img src="https://www.apple.com/newsroom/images/product/mac/standard/Apple_new-macbookair-wallpaper-screen_11102020_big.jpg.large.jpg"
-                     alt="Macbook Air"
-                     class="card-image">
-            </div>
-            <div class="card-content">
-                <h3 class="card-title">Macbook Air</h3>
-                <p class="card-description">
-                    Lightweight laptop with M1 chip, stunning Retina display,
-                    and all-day battery life for productivity on the go.
-                </p>
-                <div class="card-price">
-                    <span class="price-sale">$1178</span>
-                </div>
-                <button class="card-button">Add to Cart</button>
-            </div>
+    </div>  
+    <div class="card-content">
+        <h3 class="card-title">iPad Pro</h3>
+        <p class="card-description">
+            Powerful tablet with Liquid Retina display, advanced cameras,
+            and versatile performance for work and play.
+        </p>    
+        <div class="card-price">
+            <span class="price-original">$999.99</span>
+            <span class="price-sale">$899.99</span>
         </div>
+        <button class="card-button">Add to Cart</button>
+    </div>
+</article>
+<article class="card card-sold-out" aria-disabled="true">
+    <div class="card-image-wrapper">
+        <img src="https://m.media-amazon.com/images/I/41Vti34Yv+L._AC_UF1000,1000_QL80_.jpg"
+             alt="Apple iPhone 17 Pro Max smartphone"
+             class="card-image">
 
-        <!-- Card 4 - Sold Out Example -->
-        <div class="card card-sold-out">
-            <div class="card-image-wrapper">
-                <img src="https://m.media-amazon.com/images/I/41Vti34Yv+L._AC_UF1000,1000_QL80_.jpg"
-                     alt="iphone17 pro max"
-                     class="card-image">
-                <div class="sold-out-overlay">Sold Out</div>
-            </div>
-            <div class="card-content">
-                <h3 class="card-title">Iphone 17 pro max</h3>
-                <p class="card-description">
-                    The latest smartphone with cutting-edge features, stunning display,
-                    and powerful performance for all your needs.
-                </p>
-                <div class="card-price">
-                    <span class="price-original">$1179.99</span>
-                    <span class="price-sale">$1129.99</span>
-                </div>
-                <button class="card-button" disabled>Out of Stock</button>
-            </div>
+        <div class="sold-out-overlay" aria-hidden="true">
+            Sold Out
         </div>
     </div>
 
+    <div class="card-content">
+        <h3 class="card-title">iPhone 17 Pro Max</h3>
+        <p class="card-description">
+            The latest smartphone with cutting-edge features, stunning display,
+            and powerful performance for all your needs.
+        </p>
+
+        <div class="card-price">
+            <span class="price-original">$1179.99</span>
+            <span class="price-sale">$1129.99</span>
+        </div>
+
+        <button class="card-button" disabled aria-disabled="true">
+            Out of Stock
+        </button>
+    </div>
+</article>
+
+
+        </section>
+    </main>
     <!-- Dark Mode Toggle -->
     <button class="theme-toggle" onclick="document.body.classList.toggle('dark-mode')">
         Dark Mode
