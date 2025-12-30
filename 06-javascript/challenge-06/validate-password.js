@@ -65,6 +65,29 @@ const validatePassword = (password) => {
     };
 };
 
-// Tests
-console.log(validatePassword('abc'));// Weak password
-console.log(validatePassword('MyP@ssw0rd!2024'));// Strong password
+// Your existing validatePassword function (unchanged)
+
+const testPasswords = ['abc', 'MyP@ssw0rd!2024'];
+
+testPasswords.forEach(pwd => {
+    const { isValid, score, errors, suggestions } = validatePassword(pwd);
+    console.log(`Password: "${pwd}"`);
+    console.log(`Valid: ${isValid}`);
+    console.log(`Score: ${score}`);
+    if (!isValid) {
+        console.log(`Errors: ${errors.join(', ')}`);
+        console.log(`Suggestions: ${suggestions.join(', ')}`);
+    }
+    console.log('-------------------------');
+});
+// Expected Output:
+// Password: "abc"
+// Valid: false
+// Score: 0
+// Errors: Too short, No uppercase letter, No number, No special character
+// Suggestions: Use at least 8 characters, Add uppercase letters (A-Z), Add numbers (0-9), Add special characters (!@#$%^&*()_+-=)
+// -------------------------
+// Password: "MyP@ssw0rd!2024"
+// Valid: true
+// Score: 100
+// -------------------------

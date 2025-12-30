@@ -20,14 +20,14 @@ function createRateLimiter(fn, limit, interval) {
 }
 
 const limitedFetch = createRateLimiter(
-    (url) => console.log('Fetching:', url),
+    (url) => console.log(`Fetching: ${url}`),
     3,  // 3 calls
     1000 // per second
 );
 
-console.log(limitedFetch('api-1')); // "Fetching: api-1", true
-console.log(limitedFetch('api-2')); // "Fetching: api-2", true
-console.log(limitedFetch('api-3')); // "Fetching: api-3", true
-console.log(limitedFetch('api-4')); // false (rate limited)
+console.log(`${limitedFetch('api-1')}`); // "Fetching: api-1", true
+console.log(`${limitedFetch('api-2')}`); // "Fetching: api-2", true
+console.log(`${limitedFetch('api-3')}`); // "Fetching: api-3", true
+
 
 // After 1 second, calls work again

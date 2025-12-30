@@ -13,7 +13,10 @@ const double = x => x * 2;
 const square = x => x * x;
 
 const composed = compose(addOne, double, square);
-console.log(composed(7)); // addOne(double(square(7))) = addOne(double(49)) = addOne(98) = 99
-
+const input1 = 7;
+const result1 = composed(input1);
+console.log(`${result1}`); // Expected: 99
 const piped = pipe(square, double, addOne);
-console.log(piped(3)); // addOne(double(square(3))) = 19
+const input2 = 3;
+const result2 = piped(input2);
+console.log(`${result2}`); // Expected: 19

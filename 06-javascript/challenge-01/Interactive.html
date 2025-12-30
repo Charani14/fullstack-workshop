@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Interactive Counter</title>
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -31,21 +32,35 @@
 </head>
 <body>
 
-    <div id="count">0</div>
+    <main>
+        <header>
+            <h1>Interactive Counter</h1>
+        </header>
 
-    <div>
-        <button onclick="decrement()">−</button>
-        <button onclick="reset()">Reset</button>
-        <button onclick="increment()">+</button>
-    </div>
+        <section aria-label="Counter Display">
+            <div id="count">0</div>
 
-    <p>Step:</p>
-    <div class="steps">
-        <button onclick="setStep(1)">1</button>
-        <button onclick="setStep(5)">5</button>
-        <button onclick="setStep(10)">10</button>
-    </div>
+            <div>
+                <button onclick="decrement()">−</button>
+                <button onclick="reset()">Reset</button>
+                <button onclick="increment()">+</button>
+            </div>
+        </section>
 
-   <script src="Interactive.js"></script>
+        <section aria-label="Step Selection">
+            <p>Step:</p>
+            <div class="steps">
+                <button onclick="setStep(1)">1</button>
+                <button onclick="setStep(5)">5</button>
+                <button onclick="setStep(10)">10</button>
+            </div>
+        </section>
+
+        <footer>
+            <p>JavaScript Practice Challenge</p>
+        </footer>
+    </main>
+
+    <script src="Interactive.js"></script>
 </body>
 </html>
