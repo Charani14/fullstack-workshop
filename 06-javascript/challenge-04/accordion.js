@@ -16,8 +16,7 @@ function createAccordion(container, data, allowMultipleOpen = false) {
     arrow.classList.add('accordion-arrow');
     arrow.innerHTML = '&#9654;'; // Right arrow ▶
 
-    header.appendChild(titleElem);
-    header.appendChild(arrow);
+    header.append(titleElem, arrow);
 
     // Create content container
     const contentElem = document.createElement('div');
@@ -29,8 +28,7 @@ function createAccordion(container, data, allowMultipleOpen = false) {
     contentElem.appendChild(contentParagraph);
 
     // Append header and content to item
-    item.appendChild(header);
-    item.appendChild(contentElem);
+    item.append(header, contentElem);
 
     // Append item to container
     container.appendChild(item);
@@ -58,8 +56,8 @@ function createAccordion(container, data, allowMultipleOpen = false) {
         contentElem.classList.remove('open');
         arrow.classList.remove('rotate');
       } else {
-        // Open this item (calculate height)
-        contentElem.style.height = contentElem.scrollHeight + 'px';
+        // Open this item (calculate height) using template literal
+        contentElem.style.height = `${contentElem.scrollHeight}px`;
         contentElem.classList.add('open');
         arrow.classList.add('rotate');
       }
