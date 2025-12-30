@@ -1,116 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product Card Component</title>
-    <link rel="stylesheet" href="exercise1.css">
+    <link rel="stylesheet" href="exercise1.css" />
 </head>
 <body>
     <header>
         <h1>Product Cards</h1>
     </header>
 
-    <main>
-        <section class="card-container">
-
-            <article class="card">
-                <div class="card-image-wrapper">
-                    <img src="https://www.apple.com/v/airpods/aa/images/meta/airpods__dh7xkbort402_og.png"
-                         alt="Apple AirPods wireless earbuds"
-                         class="card-image">
+    <main class="card-container">
+        <!-- Card 1 -->
+        <article class="card">
+            <div class="card-image-wrapper">
+                <img
+                    src="https://www.apple.com/v/airpods/aa/images/meta/airpods__dh7xkbort402_og.png"
+                    alt="Apple AirPods"
+                    class="card-image"
+                />
+            </div>
+            <div class="card-content">
+                <span class="card-badge">New</span>
+                <h3 class="card-title">Apple AirPods</h3>
+                <p class="card-description">
+                    Experience high-quality sound and seamless connectivity with the latest Apple AirPods.
+                </p>
+                <div class="card-price">
+                    <span class="price-original">$199.99</span>
+                    <span class="price-sale">$129.99</span>
                 </div>
+                <button class="card-button">Add to Cart</button>
+            </div>
+        </article>
 
-                <div class="card-content">
-                    <span class="card-badge">New</span>
-                    <h3 class="card-title">Apple AirPods</h3>
-                    <p class="card-description">
-                        Experience high-quality sound and seamless connectivity
-                        with the latest Apple AirPods.
-                    </p>
-                    <div class="card-price">
-                        <span class="price-original">$199.99</span>
-                        <span class="price-sale">$129.99</span>
-                    </div>
-                    <button class="card-button">Add to Cart</button>
+        <!-- Card 2 -->
+        <article class="card">
+            <div class="card-image-wrapper">
+                <img
+                    src="https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/apple-watch-series-9.png"
+                    alt="Apple Watch Series 9"
+                    class="card-image"
+                />
+            </div>
+            <div class="card-content">
+                <span class="card-badge badge-sale">Sale</span>
+                <h3 class="card-title">Apple Watch Series 9</h3>
+                <p class="card-description">
+                    Advanced fitness tracking, heart rate monitoring, and seamless smartphone integration in a sleek design.
+                </p>
+                <div class="card-price">
+                    <span class="price-original">$449.99</span>
+                    <span class="price-sale">$349.99</span>
                 </div>
-            </article>
+                <button class="card-button">Add to Cart</button>
+            </div>
+        </article>
 
-<article class="card">
-    <div class="card-image-wrapper">
-        <img src="https://www.apple.com/newsroom/images/product/mac/standard/Apple_new-macbookair-wallpaper-screen_11102020_big.jpg.large.jpg"
-             alt="Apple MacBook Air laptop with Retina display"
-             class="card-image">
-    </div>
+        <!-- Card 3 -->
+        <article class="card">
+            <div class="card-image-wrapper">
+                <img
+                    src="https://www.apple.com/newsroom/images/product/mac/standard/Apple_new-macbookair-wallpaper-screen_11102020_big.jpg.large.jpg"
+                    alt="MacBook Air"
+                    class="card-image"
+                />
+            </div>
+            <div class="card-content">
+                <h3 class="card-title">MacBook Air</h3>
+                <p class="card-description">
+                    Lightweight laptop with M1 chip, stunning Retina display, and all-day battery life for productivity on the go.
+                </p>
+                <div class="card-price">
+                    <span class="price-sale">$1178</span>
+                </div>
+                <button class="card-button">Add to Cart</button>
+            </div>
+        </article>
 
-    <div class="card-content">
-        <h3 class="card-title">MacBook Air</h3>
-        <p class="card-description">
-            Lightweight laptop with M1 chip, stunning Retina display,
-            and all-day battery life for productivity on the go.
-        </p>
-
-        <div class="card-price">
-            <span class="price-sale">$1178</span>
-        </div>
-
-        <button class="card-button">Add to Cart</button>
-    </div>
-</article>
-<article class="card card-on-sale">
-    <div class="card-image-wrapper">"
-        <img src="https://icreststore.in/wp-content/uploads/2022/10/MNXM3HN_A-600x600.webp"
-             alt="Apple iPad Pro tablet with Liquid Retina display"
-             class="card-image">
-        <div class="sale-badge" aria-hidden="true">
-            Sale
-        </div>
-    </div>  
-    <div class="card-content">
-        <h3 class="card-title">iPad Pro</h3>
-        <p class="card-description">
-            Powerful tablet with Liquid Retina display, advanced cameras,
-            and versatile performance for work and play.
-        </p>    
-        <div class="card-price">
-            <span class="price-original">$999.99</span>
-            <span class="price-sale">$899.99</span>
-        </div>
-        <button class="card-button">Add to Cart</button>
-    </div>
-</article>
-<article class="card card-sold-out" aria-disabled="true">
-    <div class="card-image-wrapper">
-        <img src="https://m.media-amazon.com/images/I/41Vti34Yv+L._AC_UF1000,1000_QL80_.jpg"
-             alt="Apple iPhone 17 Pro Max smartphone"
-             class="card-image">
-
-        <div class="sold-out-overlay" aria-hidden="true">
-            Sold Out
-        </div>
-    </div>
-
-    <div class="card-content">
-        <h3 class="card-title">iPhone 17 Pro Max</h3>
-        <p class="card-description">
-            The latest smartphone with cutting-edge features, stunning display,
-            and powerful performance for all your needs.
-        </p>
-
-        <div class="card-price">
-            <span class="price-original">$1179.99</span>
-            <span class="price-sale">$1129.99</span>
-        </div>
-
-        <button class="card-button" disabled aria-disabled="true">
-            Out of Stock
-        </button>
-    </div>
-</article>
-
-
-        </section>
+        <!-- Card 4 - Sold Out Example -->
+        <article class="card card-sold-out">
+            <div class="card-image-wrapper">
+                <img
+                    src="https://m.media-amazon.com/images/I/41Vti34Yv+L._AC_UF1000,1000_QL80_.jpg"
+                    alt="iPhone 17 Pro Max"
+                    class="card-image"
+                />
+                <div class="sold-out-overlay">Sold Out</div>
+            </div>
+            <div class="card-content">
+                <h3 class="card-title">iPhone 17 Pro Max</h3>
+                <p class="card-description">
+                    The latest smartphone with cutting-edge features, stunning display, and powerful performance for all your needs.
+                </p>
+                <div class="card-price">
+                    <span class="price-original">$1179.99</span>
+                    <span class="price-sale">$1129.99</span>
+                </div>
+                <button class="card-button" disabled>Out of Stock</button>
+            </div>
+        </article>
     </main>
+
     <!-- Dark Mode Toggle -->
     <button class="theme-toggle" onclick="document.body.classList.toggle('dark-mode')">
         Dark Mode
