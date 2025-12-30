@@ -2,9 +2,10 @@ let count = 0;
 let step = 1;
 
 const countDisplay = document.getElementById("count");
+const stepButtons = document.querySelectorAll(".step-btn");
 
-function updateDisplay() {
-    countDisplay.textContent = count;
+const updateDisplay = () => {
+    countDisplay.textContent = `${count}`;
 
     if (count > 0) {
         countDisplay.style.color = "green";
@@ -13,26 +14,33 @@ function updateDisplay() {
     } else {
         countDisplay.style.color = "black";
     }
-}
+};
 
-function increment() {
+const increment = () => {
     count += step;
     updateDisplay();
-}
+};
 
-function decrement() {
-    if (count - step >= 0) {
-        count -= step;
-    }
+const decrement = () => {
+    count -= step;
     updateDisplay();
-}
+};
 
-function reset() {
+const reset = () => {
     count = 0;
     updateDisplay();
-}
+};
 
-function setStep(value) {
+const setStep = (value) => {
     step = value;
-}
+};
 
+// Using array method (forEach)
+stepButtons.forEach(button => {
+    button.addEventListener("click", () => {
+        setStep(Number(button.dataset.step));
+    });
+});
+
+// Initial render
+updateDisplay();
