@@ -17,7 +17,7 @@
             <div class="card-image-wrapper">
                 <img
                     src="https://www.apple.com/v/airpods/aa/images/meta/airpods__dh7xkbort402_og.png"
-                    alt="Apple AirPods"
+                    alt="Apple AirPods wireless earbuds"
                     class="card-image"
                 />
             </div>
@@ -40,7 +40,7 @@
             <div class="card-image-wrapper">
                 <img
                     src="https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/apple-watch-series-9.png"
-                    alt="Apple Watch Series 9"
+                    alt="Apple Watch Series 9 smartwatch"
                     class="card-image"
                 />
             </div>
@@ -63,7 +63,7 @@
             <div class="card-image-wrapper">
                 <img
                     src="https://www.apple.com/newsroom/images/product/mac/standard/Apple_new-macbookair-wallpaper-screen_11102020_big.jpg.large.jpg"
-                    alt="MacBook Air"
+                    alt="Apple MacBook Air laptop"
                     class="card-image"
                 />
             </div>
@@ -79,20 +79,20 @@
             </div>
         </article>
 
-        <!-- Card 4 - Sold Out Example -->
+        <!-- Card 4 - Sold Out -->
         <article class="card card-sold-out">
             <div class="card-image-wrapper">
                 <img
                     src="https://m.media-amazon.com/images/I/41Vti34Yv+L._AC_UF1000,1000_QL80_.jpg"
-                    alt="iPhone 17 Pro Max"
+                    alt="Apple iPhone 17 Pro Max smartphone"
                     class="card-image"
                 />
-                <div class="sold-out-overlay">Sold Out</div>
+                <div class="sold-out-overlay" aria-hidden="true">Sold Out</div>
             </div>
             <div class="card-content">
                 <h3 class="card-title">iPhone 17 Pro Max</h3>
                 <p class="card-description">
-                    The latest smartphone with cutting-edge features, stunning display, and powerful performance for all your needs.
+                    The latest smartphone with cutting-edge features, stunning display, and powerful performance.
                 </p>
                 <div class="card-price">
                     <span class="price-original">$1179.99</span>
@@ -104,7 +104,11 @@
     </main>
 
     <!-- Dark Mode Toggle -->
-    <button class="theme-toggle" onclick="document.body.classList.toggle('dark-mode')">
+    <button
+        class="theme-toggle"
+        onclick="document.body.classList.toggle('dark-mode')"
+        aria-label="Toggle dark mode"
+    >
         Dark Mode
     </button>
 </body>
