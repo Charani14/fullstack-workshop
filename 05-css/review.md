@@ -1,7 +1,7 @@
 # Review: 05-css
 
 **Exercise:**  Exercise: Style a Responsive Card Component
-**Review Date:** 2025-12-30 15:29
+**Review Date:** 2025-12-31 09:40
 
 ---
 
@@ -19,17 +19,17 @@
 
 📄 **exercise1.html**
    Path: `05-css/exercise1.html`
-   Lines: 104
+   Lines: 111
 
     - ✅ Has `<!DOCTYPE html>`
-    - 💡 Consider using semantic tags (header, nav, main, etc.)
+    - ✅ Uses semantic HTML5 tags
     - ❌ Images missing `alt` attributes
     - ✅ Has viewport meta tag (mobile-friendly)
     - ✅ Has `lang` attribute
 
-   **Score: 3/5**
+   **Score: 4/5**
 
-### Topic Score: 3 / 5 (60%)
+### Topic Score: 4 / 5 (80%)
 
 ---
 

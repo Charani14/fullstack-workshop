@@ -1,33 +1,77 @@
 # Review: 09-mysql
 
 **Exercise:**  Exercise: E-Commerce Database Design and Queries
-**Review Date:** 2025-12-30 15:29
+**Review Date:** 2025-12-31 09:40
 
 ---
 
 ## Status: ✅ Submitted
 
-**Files submitted:** 3
+**Files submitted:** 6
 
 ### Code Review
 
 📄 **department-stats.sql**
-   Path: `09-mysql/challenges/department-stats.sql`
-   Lines: 6
+   Path: `09-mysql/challenges/challenge-01/department-stats.sql`
+   Lines: 32
 
-    - ❌ Missing PRIMARY KEY definitions
+    - ✅ Has table definitions
+    - ✅ Defines primary keys
+    - 💡 Consider adding FOREIGN KEY relationships
+    - 💡 Consider adding NOT NULL constraints
+    - ✅ Uses auto-increment for IDs
 
-   **Score: 1/5**
+   **Score: 3/5**
 
 📄 **employee-hierarchy.sql**
-   Path: `09-mysql/challenges/employee-hierarchy.sql`
-   Lines: 6
+   Path: `09-mysql/challenges/challenge-02/employee-hierarchy.sql`
+   Lines: 32
 
-    - ❌ Missing PRIMARY KEY definitions
+    - ✅ Has table definitions
+    - ✅ Defines primary keys
+    - 💡 Consider adding FOREIGN KEY relationships
+    - 💡 Consider adding NOT NULL constraints
+    - ✅ Uses auto-increment for IDs
 
-   **Score: 1/5**
+   **Score: 3/5**
 
-### Topic Score: 2 / 10 (20%)
+📄 **project-workload.sql**
+   Path: `09-mysql/challenges/challenge-03/project-workload.sql`
+   Lines: 40
+
+    - ✅ Has table definitions
+    - ✅ Defines primary keys
+    - 💡 Consider adding FOREIGN KEY relationships
+    - 💡 Consider adding NOT NULL constraints
+    - ✅ Uses auto-increment for IDs
+
+   **Score: 3/5**
+
+📄 **top-earners.sql**
+   Path: `09-mysql/challenges/challenge-04/top-earners.sql`
+   Lines: 44
+
+    - ✅ Has table definitions
+    - ✅ Defines primary keys
+    - 💡 Consider adding FOREIGN KEY relationships
+    - 💡 Consider adding NOT NULL constraints
+    - ✅ Uses auto-increment for IDs
+
+   **Score: 3/5**
+
+📄 **unassigned-resources.sql**
+   Path: `09-mysql/challenges/challenge-05/unassigned-resources.sql`
+   Lines: 37
+
+    - ✅ Has table definitions
+    - ✅ Defines primary keys
+    - 💡 Consider adding FOREIGN KEY relationships
+    - 💡 Consider adding NOT NULL constraints
+    - ✅ Uses auto-increment for IDs
+
+   **Score: 3/5**
+
+### Topic Score: 15 / 25 (60%)
 
 ---
 
