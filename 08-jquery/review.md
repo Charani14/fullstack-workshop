@@ -1,13 +1,18 @@
 # Review: 08-jquery
 
 **Exercise:**  Exercise: Build an Interactive Quiz Application
-**Review Date:** 2025-12-31 09:40
+**Review Date:** 2025-12-31 10:55
 
 ---
 
 ## Status: ✅ Submitted
 
-**Files submitted:** 3
+**Files submitted:** 2
+
+### Relevance Check
+
+✅ Submission appears relevant to the exercise
+   Found keywords: quiz question answer score 
 
 ### Code Review
 

@@ -1,85 +1,58 @@
 # Review: 09-mysql
 
 **Exercise:**  Exercise: E-Commerce Database Design and Queries
-**Review Date:** 2025-12-31 09:40
+**Review Date:** 2025-12-31 10:55
 
 ---
 
 ## Status: ✅ Submitted
 
-**Files submitted:** 6
+**Files submitted:** 5
 
-### Code Review
+### Relevance Check
 
-📄 **department-stats.sql**
-   Path: `09-mysql/challenges/challenge-01/department-stats.sql`
-   Lines: 32
+❌ **Submission does NOT match exercise requirements**
+   Expected keywords: customer product category order ecommerce schema queries
+   Found only: order 
+   **Please review the exercise requirements and resubmit**
 
-    - ✅ Has table definitions
-    - ✅ Defines primary keys
-    - 💡 Consider adding FOREIGN KEY relationships
-    - 💡 Consider adding NOT NULL constraints
-    - ✅ Uses auto-increment for IDs
+### ⚠️ Review Skipped
 
-   **Score: 3/5**
+The submission does not appear to match the exercise requirements.
+Please complete the correct exercise and resubmit.
 
-📄 **employee-hierarchy.sql**
-   Path: `09-mysql/challenges/challenge-02/employee-hierarchy.sql`
-   Lines: 32
-
-    - ✅ Has table definitions
-    - ✅ Defines primary keys
-    - 💡 Consider adding FOREIGN KEY relationships
-    - 💡 Consider adding NOT NULL constraints
-    - ✅ Uses auto-increment for IDs
-
-   **Score: 3/5**
-
-📄 **project-workload.sql**
-   Path: `09-mysql/challenges/challenge-03/project-workload.sql`
-   Lines: 40
-
-    - ✅ Has table definitions
-    - ✅ Defines primary keys
-    - 💡 Consider adding FOREIGN KEY relationships
-    - 💡 Consider adding NOT NULL constraints
-    - ✅ Uses auto-increment for IDs
-
-   **Score: 3/5**
-
-📄 **top-earners.sql**
-   Path: `09-mysql/challenges/challenge-04/top-earners.sql`
-   Lines: 44
-
-    - ✅ Has table definitions
-    - ✅ Defines primary keys
-    - 💡 Consider adding FOREIGN KEY relationships
-    - 💡 Consider adding NOT NULL constraints
-    - ✅ Uses auto-increment for IDs
-
-   **Score: 3/5**
-
-📄 **unassigned-resources.sql**
-   Path: `09-mysql/challenges/challenge-05/unassigned-resources.sql`
-   Lines: 37
-
-    - ✅ Has table definitions
-    - ✅ Defines primary keys
-    - 💡 Consider adding FOREIGN KEY relationships
-    - 💡 Consider adding NOT NULL constraints
-    - ✅ Uses auto-increment for IDs
-
-   **Score: 3/5**
-
-### Topic Score: 15 / 25 (60%)
+### Topic Score: 0 / 100 (0%)
 
 ---
 
 ## Challenge
 
-**Status:** ⚠️ Not submitted
+**Status:** ✅ Submitted (1 files)
 
-Submit to: `09-mysql/challenge-01/`
+### Challenge Relevance Check
+
+⚠️ Submission partially matches exercise requirements
+   Found: employee department salary 
+   Missing: project assignment 
+
+### Challenge Code Review
+
+📄 **department-stats.sql**
+   Lines: 7
+
+    📋 **Challenge 1: Department Stats**
+    Expected: department, employee_count, avg_salary, max_salary
+
+    - ✅ Groups by department
+    - ❌ Missing COUNT(*) for employee count
+    - ✅ Calculates average salary
+    - ❌ Missing MAX(salary)
+    - ✅ Filters departments with >2 employees (HAVING)
+
+   **Score: 3/5**
+
+### Challenge Score: 3 / 5 (60%)
+
 
 ---
 
