@@ -1,7 +1,7 @@
 # Review: 09-mysql
 
 **Exercise:**  Exercise: E-Commerce Database Design and Queries
-**Review Date:** 2026-01-02 16:28
+**Review Date:** 2026-01-02 16:31
 
 ---
 
@@ -27,55 +27,14 @@ Please complete the correct exercise and resubmit.
 
 ## Challenge
 
-**Status:** ✅ Submitted (0 files in 10 challenge folders)
+**Status:** ✅ Submitted (0 files)
 
 ### Challenge Relevance Check
 
-⚠️ Submission partially matches exercise requirements
-   Found: employee department salary 
-   Missing: project assignment 
-
-### Challenge Code Review
-
-#### 📁 Sri
-
-#### 📁 challenge-01
-
-#### 📁 Sri
-
-#### 📁 challenge-02
-
-#### 📁 Sri
-
-#### 📁 challenge-03
-
-#### 📁 Sri
-
-#### 📁 challenge-04
-
-#### 📁 Sri
-
-#### 📁 challenge-05
-
-#### 📁 Sri
-
-#### 📁 challenge-06
-
-#### 📁 Sri
-
-#### 📁 challenge-07
-
-#### 📁 Sri
-
-#### 📁 challenge-08
-
-#### 📁 Sri
-
-#### 📁 challenge-09
-
-#### 📁 Sri
-
-#### 📁 challenge-12
+❌ **Submission does NOT match exercise requirements**
+   Expected keywords: employee department salary project assignment
+   None of the expected keywords found in submission
+   **Please review the exercise requirements and resubmit**
 
 
 ---
