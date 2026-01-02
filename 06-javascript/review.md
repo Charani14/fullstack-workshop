@@ -1,7 +1,7 @@
 # Review: 06-javascript
 
 **Exercise:** Exercise
-**Review Date:** 2026-01-02 16:31
+**Review Date:** 2026-01-02 16:35
 
 ---
 
@@ -242,13 +242,13 @@ Unable to check - no exercise file
 
 ## Challenge
 
-**Status:** ✅ Submitted (0 files)
+**Status:** ✅ Submitted (7 files)
 
 ### Challenge Relevance Check
 
 ❌ **Submission does NOT match exercise requirements**
    Expected keywords: task manager todo add delete
-   None of the expected keywords found in submission
+   Found only: add 
    **Please review the exercise requirements and resubmit**
 
 

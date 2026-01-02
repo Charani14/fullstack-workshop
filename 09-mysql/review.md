@@ -1,7 +1,7 @@
 # Review: 09-mysql
 
 **Exercise:**  Exercise: E-Commerce Database Design and Queries
-**Review Date:** 2026-01-02 16:31
+**Review Date:** 2026-01-02 16:35
 
 ---
 
@@ -27,14 +27,113 @@ Please complete the correct exercise and resubmit.
 
 ## Challenge
 
-**Status:** ✅ Submitted (0 files)
+**Status:** ✅ Submitted (10 files)
 
 ### Challenge Relevance Check
 
-❌ **Submission does NOT match exercise requirements**
-   Expected keywords: employee department salary project assignment
-   None of the expected keywords found in submission
-   **Please review the exercise requirements and resubmit**
+✅ Submission appears relevant to the exercise
+   Found keywords: employee department salary project assignment 
+
+### Challenge Code Review
+
+📄 **department-stats.sql**
+   Lines: 7
+
+    📋 **Challenge 1: Department Stats**
+    Expected: department, employee_count, avg_salary, max_salary
+
+    - ✅ Groups by department
+    - ✅ Counts employees (COUNT(*))
+    - ✅ Calculates average salary
+    - ✅ Finds maximum salary
+    - ✅ Filters departments with >2 employees (HAVING)
+
+   **Score: 5/5**
+
+📄 **employee-hierarchy.sql**
+   Lines: 6
+
+    - ✅ Contains 1 SELECT statement(s)
+    - ✅ Uses JOIN operations
+    - 💡 Consider using aggregate functions (COUNT, SUM, etc.)
+    - ✅ Uses explicit column selection
+
+   **Score: 3/5**
+
+📄 **project-workload.sql**
+   Lines: 14
+
+    - ✅ Contains 1 SELECT statement(s)
+    - ✅ Uses JOIN operations
+    - ✅ Uses aggregate functions
+    - ✅ Uses GROUP BY for aggregation
+    - ✅ Uses explicit column selection
+
+   **Score: 5/5**
+
+📄 **top-earners.sql**
+   Lines: 18
+
+    - ✅ Contains 2 SELECT statement(s)
+    - 💡 Consider using aggregate functions (COUNT, SUM, etc.)
+    - ✅ Uses explicit column selection
+
+   **Score: 2/4**
+
+📄 **unassigned-resources.sql**
+   Lines: 11
+
+    - ✅ Contains 1 SELECT statement(s)
+    - ✅ Uses JOIN operations
+    - 💡 Consider using aggregate functions (COUNT, SUM, etc.)
+    - ✅ Uses explicit column selection
+
+   **Score: 3/5**
+
+📄 **name-formatter.sql**
+   Lines: 6
+
+    - ✅ Contains 1 SELECT statement(s)
+    - 💡 Consider using aggregate functions (COUNT, SUM, etc.)
+    - ✅ Uses explicit column selection
+
+   **Score: 2/4**
+
+📄 **tenure-function.sql**
+   Lines: 24
+
+    - ✅ Contains 1 SELECT statement(s)
+    - ✅ Uses aggregate functions
+    - ✅ Uses explicit column selection
+
+   **Score: 3/4**
+
+📄 **salary-adjustment.sql**
+   Lines: 21
+
+    - ✅ Contains 3 SELECT statement(s)
+    - ✅ Uses aggregate functions
+    - ✅ Uses explicit column selection
+
+   **Score: 3/4**
+
+📄 **budget-utilization.sql**
+   Lines: 21
+
+    - ✅ Contains SQL statements
+
+   **Score: 2/3**
+
+📄 **date-report-function.sql**
+   Lines: 41
+
+    - ✅ Contains 2 SELECT statement(s)
+    - ✅ Uses aggregate functions
+    - ✅ Uses explicit column selection
+
+   **Score: 3/4**
+
+### Challenge Score: 31 / 43 (72%)
 
 
 ---
