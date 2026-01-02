@@ -1,7 +1,7 @@
 # Review: 09-mysql
 
 **Exercise:**  Exercise: E-Commerce Database Design and Queries
-**Review Date:** 2026-01-02 13:58
+**Review Date:** 2026-01-02 16:28
 
 ---
 
@@ -27,7 +27,7 @@ Please complete the correct exercise and resubmit.
 
 ## Challenge
 
-**Status:** ✅ Submitted (1 files)
+**Status:** ✅ Submitted (0 files in 10 challenge folders)
 
 ### Challenge Relevance Check
 
@@ -37,21 +37,45 @@ Please complete the correct exercise and resubmit.
 
 ### Challenge Code Review
 
-📄 **department-stats.sql**
-   Lines: 7
+#### 📁 Sri
 
-    📋 **Challenge 1: Department Stats**
-    Expected: department, employee_count, avg_salary, max_salary
+#### 📁 challenge-01
 
-    - ✅ Groups by department
-    - ❌ Missing COUNT(*) for employee count
-    - ✅ Calculates average salary
-    - ❌ Missing MAX(salary)
-    - ✅ Filters departments with >2 employees (HAVING)
+#### 📁 Sri
 
-   **Score: 3/5**
+#### 📁 challenge-02
 
-### Challenge Score: 3 / 5 (60%)
+#### 📁 Sri
+
+#### 📁 challenge-03
+
+#### 📁 Sri
+
+#### 📁 challenge-04
+
+#### 📁 Sri
+
+#### 📁 challenge-05
+
+#### 📁 Sri
+
+#### 📁 challenge-06
+
+#### 📁 Sri
+
+#### 📁 challenge-07
+
+#### 📁 Sri
+
+#### 📁 challenge-08
+
+#### 📁 Sri
+
+#### 📁 challenge-09
+
+#### 📁 Sri
+
+#### 📁 challenge-12
 
 
 ---
